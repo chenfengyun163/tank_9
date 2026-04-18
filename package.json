@@ -1,0 +1,32 @@
+{
+  "name": "playcanvas-rts-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Active Web RTS route built with PlayCanvas and TypeScript.",
+  "scripts": {
+    "dev": "vite",
+    "play": "vite --host 127.0.0.1 --port 4173",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "vitest run",
+    "computer-use": "node scripts/computer-use.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^6.34.0",
+    "playcanvas": "^2.12.3",
+    "playwright": "^1.59.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
+    "eslint": "^9.38.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1",
+    "vite": "^7.1.11",
+    "vitest": "^3.2.4"
+  }
+}

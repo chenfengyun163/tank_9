@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temp
+*.tmp
+.cache/
+
+# Vite
+.vite-check-*.out.log
+.vite-check-*.err.log
+.vite-preview*.out.log
+.vite-preview*.err.log
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Archived reference directories
+RTS-Sandbox/
+unity-rts-builder-prototype/
