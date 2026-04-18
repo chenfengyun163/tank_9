@@ -1,6 +1,6 @@
-# PlayCanvas RTS Web
+# tank_9 - PlayCanvas RTS Web
 
-This repository now advances toward a complete, replayable single-player Web RTS built with PlayCanvas and TypeScript.
+A complete, replayable single-player Web RTS (Real-Time Strategy) game built with PlayCanvas and TypeScript.
 
 ## Active Production Route
 
@@ -14,6 +14,13 @@ This repository now advances toward a complete, replayable single-player Web RTS
 - Current branch target: `refactor/demo-polish`
 - Current milestone: `refactor/demo-polish` for fast, readable RTS demo feel
 - Next branch after demo polish: `feature/ci-publish`
+
+## Quick Start
+
+```bash
+npm install
+npm run play             # Start local play session on http://127.0.0.1:4173/
+```
 
 ## Scripts
 
